@@ -1,12 +1,41 @@
 body {
+  width: 960px;
+  margin: 0 auto;
   font-family: "Helvetica", sans-serif;
 }
+img.align-center{
+  display: block;
+  margin: 0px auto;
+}
+
+
+#content {
+  overflow: auto;
+  height: 100%;
+}
+#nav, #feature, #footer {
+  background-color: #efefef;
+  padding: 10px;
+  margin: 10px;}
+
+.column1, .column2, .column3 {
+  background-color: #efefef;
+  width: 31.3%;
+  float: left;
+  margin: 1%;}
+.column3 {margin-right: 0%;}
 
 h2 {
   color: #7A0019;
+
 }
 
 #contact {
   background-color: #FFDE7A;
   padding: 2%;
+}
+
+#footer {
+  background-color: #efefef;
+  padding: 0.5em 0;
 }
